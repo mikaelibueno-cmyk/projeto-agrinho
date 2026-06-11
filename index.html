@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazenda do Futuro</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>🌱 Fazenda do Futuro</h1>
+        <p>Agro Forte, Futuro Sustentável</p>
+    </header>
+
+    <!-- Menu -->
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#agro">Agro Sustentável</a>
+        <a href="#tecnologia">Tecnologias</a>
+        <a href="#dicas">Dicas</a>
+        <a href="#curiosidades">Curiosidades</a>
+        <a href="#jogo">Jogo</a>
+    </nav>
+
+    <!-- Página Inicial -->
+    <section id="inicio">
+        <h2>Bem-vindo à Fazenda do Futuro</h2>
+
+        <p>
+            O agronegócio é essencial para a alimentação da população e para a economia do país.
+            Com o uso da tecnologia e práticas sustentáveis, é possível produzir mais alimentos
+            preservando o meio ambiente.
+        </p>
+
+        <div class="galeria">
+            <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854" alt="Plantação">
+            <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276" alt="Energia Solar">
+            <img src="https://images.unsplash.com/photo-1592982537447-6f2a6a0e4e5e" alt="Trator">
+        </div>
+    </section>
+
+    <!-- Agro Sustentável -->
+    <section id="agro">
+        <h2>🌿 O que é Agro Sustentável?</h2>
+
+        <p>
+            É uma forma de agricultura que produz alimentos sem prejudicar o meio ambiente,
+            preservando recursos naturais para as próximas gerações.
+        </p>
+    </section>
+
+    <!-- Tecnologias -->
+    <section id="tecnologia">
+        <h2>🚜 Tecnologias do Futuro</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>🚁 Drones</h3>
+                <p>Monitoram plantações e identificam problemas rapidamente.</p>
+            </div>
+
+            <div class="card">
+                <h3>💧 Sensores de Umidade</h3>
+                <p>Controlam a necessidade de água no solo.</p>
+            </div>
+
+            <div class="card">
+                <h3>🌾 Irrigação Inteligente</h3>
+                <p>Economiza água e melhora a produtividade.</p>
+            </div>
+
+            <div class="card">
+                <h3>☀️ Energia Solar</h3>
+                <p>Fonte limpa e renovável para propriedades rurais.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dicas -->
+    <section id="dicas">
+        <h2>♻️ Dicas Sustentáveis</h2>
+
+        <ul>
+            <li>Economizar água.</li>
+            <li>Preservar as matas.</li>
+            <li>Reciclar materiais.</li>
+            <li>Usar o solo de forma consciente.</li>
+        </ul>
+    </section>
+
+    <!-- Curiosidades -->
+    <section id="curiosidades">
+        <h2>📚 Curiosidades</h2>
+
+        <ul>
+            <li>O Brasil é um dos maiores produtores de alimentos do mundo.</li>
+            <li>O campo fornece alimentos para a cidade.</li>
+            <li>A cidade fornece máquinas e tecnologia para o campo.</li>
+        </ul>
+    </section>
+
+    <!-- Jogo -->
+    <section id="jogo">
+        <h2>🎮 Missão Fazenda Sustentável</h2>
+
+        <div class="agricultor">
+            👨‍🌾 Olá! Sou seu guia. Faça escolhas sustentáveis!
+        </div>
+
+        <h3>Pontuação: <span id="pontos">0</span></h3>
+
+        <div class="pergunta">
+            <p><strong>Você precisa irrigar a plantação. O que faz?</strong></p>
+
+            <button onclick="adicionarPontos(20)">
+                Irrigação Inteligente (+20)
+            </button>
+
+            <button onclick="adicionarPontos(-10)">
+                Desperdiçar Água (-10)
+            </button>
+        </div>
+
+        <div class="pergunta">
+            <p><strong>Uma área da fazenda está sem árvores. O que fazer?</strong></p>
+
+            <button onclick="adicionarPontos(20)">
+                Reflorestar (+20)
+            </button>
+
+            <button onclick="adicionarPontos(-20)">
+                Desmatar Mais (-20)
+            </button>
+        </div>
+
+        <div class="pergunta">
+            <p><strong>Energia para a fazenda:</strong></p>
+
+            <button onclick="adicionarPontos(20)">
+                Painéis Solares (+20)
+            </button>
+
+            <button onclick="adicionarPontos(-10)">
+                Gerador Poluente (-10)
+            </button>
+        </div>
+
+        <button class="finalizar" onclick="resultadoFinal()">
+            Ver Resultado
+        </button>
+
+        <h3 id="resultado"></h3>
+
+        <button class="certificado" onclick="gerarCertificado()">
+            Gerar Certificado
+        </button>
+
+        <div id="certificado"></div>
+    </section>
+
+    <!-- Ranking -->
+    <section>
+        <h2>🏆 Ranking</h2>
+
+        <ol>
+            <li>Ana - 100 pontos</li>
+            <li>Carlos - 90 pontos</li>
+            <li>Maria - 80 pontos</li>
+        </ol>
+    </section>
+
+    <footer>
+        <p>© 2026 - Fazenda do Futuro</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
