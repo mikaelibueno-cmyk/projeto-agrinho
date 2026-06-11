@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f5fff5;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(90deg,#2e8b57,#4caf50);
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+nav{
+    background:#ffd700;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    text-decoration:none;
+    color:#2e7d32;
+    font-weight:bold;
+    margin:15px;
+}
+
+nav a:hover{
+    color:black;
+}
+
+section{
+    padding:40px;
+}
+
+h2{
+    color:#2e7d32;
+    margin-bottom:20px;
+}
+
+.galeria{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.galeria img{
+    width:300px;
+    border-radius:10px;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    width:220px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+
+ul{
+    margin-left:20px;
+}
+
+.pergunta{
+    background:white;
+    margin:20px 0;
+    padding:20px;
+    border-radius:10px;
+}
+
+button{
+    padding:10px 20px;
+    margin:10px;
+    border:none;
+    border-radius:5px;
+    background:#4caf50;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2e7d32;
+}
+
+.finalizar{
+    background:#ff9800;
+}
+
+.certificado{
+    background:#2196f3;
+}
+
+.agricultor{
+    background:#fff3cd;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+#resultado{
+    margin-top:20px;
+    color:#2e7d32;
+}
+
+#certificado{
+    margin-top:20px;
+    font-size:20px;
+    font-weight:bold;
+    color:#1565c0;
+}
+
+footer{
+    background:#2e8b57;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
