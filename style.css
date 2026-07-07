@@ -1,14 +1,17 @@
+```css id="p6s3kz"
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
 
+
 body{
-    font-family: Arial, sans-serif;
+    font-family:Arial, sans-serif;
     background:#f5fff5;
     color:#333;
 }
+
 
 header{
     background:linear-gradient(90deg,#2e8b57,#4caf50);
@@ -17,11 +20,13 @@ header{
     padding:30px;
 }
 
+
 nav{
     background:#ffd700;
     padding:15px;
     text-align:center;
 }
+
 
 nav a{
     text-decoration:none;
@@ -30,18 +35,22 @@ nav a{
     margin:15px;
 }
 
+
 nav a:hover{
     color:black;
 }
+
 
 section{
     padding:40px;
 }
 
+
 h2{
     color:#2e7d32;
     margin-bottom:20px;
 }
+
 
 .galeria{
     display:flex;
@@ -49,16 +58,21 @@ h2{
     flex-wrap:wrap;
 }
 
+
 .galeria img{
     width:300px;
     border-radius:10px;
 }
+
+
 
 .cards{
     display:flex;
     gap:20px;
     flex-wrap:wrap;
 }
+
+
 
 .card{
     background:white;
@@ -68,14 +82,20 @@ h2{
     box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
+
+
 .card:hover{
     transform:scale(1.05);
     transition:0.3s;
 }
 
+
+
 ul{
     margin-left:20px;
 }
+
+
 
 .pergunta{
     background:white;
@@ -83,6 +103,8 @@ ul{
     padding:20px;
     border-radius:10px;
 }
+
+
 
 button{
     padding:10px 20px;
@@ -94,17 +116,25 @@ button{
     cursor:pointer;
 }
 
+
+
 button:hover{
     background:#2e7d32;
 }
+
+
 
 .finalizar{
     background:#ff9800;
 }
 
+
+
 .certificado{
     background:#2196f3;
 }
+
+
 
 .agricultor{
     background:#fff3cd;
@@ -113,10 +143,14 @@ button:hover{
     margin-bottom:20px;
 }
 
+
+
 #resultado{
     margin-top:20px;
     color:#2e7d32;
 }
+
+
 
 #certificado{
     margin-top:20px;
@@ -125,9 +159,13 @@ button:hover{
     color:#1565c0;
 }
 
+
+
 footer{
     background:#2e8b57;
     color:white;
     text-align:center;
     padding:20px;
 }
+```
+
