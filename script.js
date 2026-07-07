@@ -1,14 +1,14 @@
-let pontos = 0;
+alert("JavaScript carregado!");
 
+let pontos = 0;
 
 function adicionarPontos(valor){
 
     pontos += valor;
 
-    document.getElementById("pontos").textContent = pontos;
+    document.getElementById("pontos").innerHTML = pontos;
 
 }
-
 
 
 function resultadoFinal(){
