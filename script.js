@@ -33,5 +33,3 @@ function gerarCertificado(){
     "🏅 Certificado de Agricultor Sustentável Conquistado!";
 }
 ```
-
-
