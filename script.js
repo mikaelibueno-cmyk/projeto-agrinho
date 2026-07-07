@@ -1,34 +1,36 @@
-```javascript
+```javascript id="l5c4r8"
 let pontos = 0;
 
-function adicionarPontos(valor) {
+function adicionarPontos(valor){
     pontos += valor;
 
     document.getElementById("pontos").innerHTML = pontos;
 }
 
-function resultadoFinal() {
+function resultadoFinal(){
 
     let resultado = document.getElementById("resultado");
 
-    if (pontos >= 80) {
+    if(pontos >= 80){
         resultado.innerHTML =
-            "🎉 Parabéns! Você construiu uma Fazenda Sustentável!";
+        "🎉 Parabéns! Você construiu uma Fazenda Sustentável!";
     }
-    else if (pontos >= 50) {
+
+    else if(pontos >= 50){
         resultado.innerHTML =
-            "👍 Bom trabalho, mas ainda pode melhorar.";
+        "👍 Bom trabalho, mas ainda pode melhorar.";
     }
-    else {
+
+    else{
         resultado.innerHTML =
-            "⚠️ Sua fazenda precisa de práticas mais sustentáveis.";
+        "⚠️ Sua fazenda precisa de práticas mais sustentáveis.";
     }
 }
 
-function gerarCertificado() {
+function gerarCertificado(){
 
     document.getElementById("certificado").innerHTML =
-        "🏅 Certificado de Agricultor Sustentável Conquistado!";
+    "🏅 Certificado de Agricultor Sustentável Conquistado!";
 }
 ```
 
