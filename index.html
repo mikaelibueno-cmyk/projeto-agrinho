@@ -119,4 +119,130 @@
 
 </section>
 ```
+```html
+<!-- Jogo -->
+<section id="jogo">
+
+    <h2>🎮 Missão Fazenda Sustentável</h2>
+
+    <div class="agricultor">
+        👨‍🌾 Olá! Sou seu guia. Faça escolhas sustentáveis!
+    </div>
+
+    <h3>Pontuação: <span id="pontos">0</span></h3>
+
+
+    <div class="pergunta">
+
+        <p>
+            <strong>
+                Você precisa irrigar a plantação. O que faz?
+            </strong>
+        </p>
+
+        <button onclick="adicionarPontos(20)">
+            Irrigação Inteligente (+20)
+        </button>
+
+        <button onclick="adicionarPontos(-10)">
+            Desperdiçar Água (-10)
+        </button>
+
+    </div>
+
+
+    <div class="pergunta">
+
+        <p>
+            <strong>
+                Uma área da fazenda está sem árvores. O que fazer?
+            </strong>
+        </p>
+
+        <button onclick="adicionarPontos(20)">
+            Reflorestar (+20)
+        </button>
+
+        <button onclick="adicionarPontos(-20)">
+            Desmatar Mais (-20)
+        </button>
+
+    </div>
+
+
+    <div class="pergunta">
+
+        <p>
+            <strong>
+                Energia para a fazenda:
+            </strong>
+        </p>
+
+        <button onclick="adicionarPontos(20)">
+            Painéis Solares (+20)
+        </button>
+
+        <button onclick="adicionarPontos(-10)">
+            Gerador Poluente (-10)
+        </button>
+
+    </div>
+
+
+    <button class="finalizar" onclick="resultadoFinal()">
+        Ver Resultado
+    </button>
+
+
+    <h3 id="resultado"></h3>
+
+
+    <button class="certificado" onclick="gerarCertificado()">
+        Gerar Certificado
+    </button>
+
+
+    <div id="certificado"></div>
+
+
+</section>
+
+
+
+<!-- Ranking -->
+<section>
+
+    <h2>🏆 Ranking</h2>
+
+    <ol>
+
+        <li>Ana - 100 pontos</li>
+
+        <li>Carlos - 90 pontos</li>
+
+        <li>Maria - 80 pontos</li>
+
+    </ol>
+
+</section>
+
+
+
+<footer>
+
+    <p>
+        © 2026 - Fazenda do Futuro
+    </p>
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
+```
 
