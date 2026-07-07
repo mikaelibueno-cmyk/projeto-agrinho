@@ -1,4 +1,3 @@
-```javascript id="x5n3fw"
 let pontos = 0;
 
 
